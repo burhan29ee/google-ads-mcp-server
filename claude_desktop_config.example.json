@@ -1,0 +1,15 @@
+{
+  "mcpServers": {
+    "google-ads": {
+      "command": "/absolute/path/to/google-ads-mcp-server/.venv/bin/python",
+      "args": ["-m", "google_ads_mcp_server.server"],
+      "env": {
+        "GOOGLE_ADS_DEVELOPER_TOKEN": "your-developer-token",
+        "GOOGLE_ADS_LOGIN_CUSTOMER_ID": "1234567890",
+        "GOOGLE_ADS_CLIENT_ID": "your-oauth-client-id.apps.googleusercontent.com",
+        "GOOGLE_ADS_CLIENT_SECRET": "your-oauth-client-secret",
+        "GOOGLE_ADS_REFRESH_TOKEN": "your-oauth-refresh-token"
+      }
+    }
+  }
+}
